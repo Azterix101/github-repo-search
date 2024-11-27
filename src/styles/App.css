@@ -1,0 +1,27 @@
+/* src/styles/App.css */
+
+/* Global Styles */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+  color: #1890ff;
+}
+
+.ant-list-pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Responsive adjustments if needed */
+
+@media (max-width: 576px) {
+  .ant-descriptions-item-label,
+  .ant-descriptions-item-content {
+    display: block;
+  }
+}
